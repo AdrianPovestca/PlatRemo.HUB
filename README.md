@@ -1,4 +1,3 @@
-cat > platremo-readme.html << 'EOF'
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -242,29 +241,18 @@ cat > platremo-readme.html << 'EOF'
 </head>
 <body>
     <div class="container">
-        <!-- HEADER WITH LOGO -->
         <header>
             <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <!-- Background circle -->
                 <circle cx="100" cy="100" r="95" fill="none" stroke="#1a2332" stroke-width="2"/>
-                
-                <!-- P Letter -->
                 <g transform="translate(50, 40)">
-                    <!-- Vertical line of P -->
                     <line x1="20" y1="20" x2="20" y2="100" stroke="#d4a574" stroke-width="8" stroke-linecap="round"/>
-                    <!-- Curved top of P -->
                     <path d="M 20 20 Q 60 20 60 50 Q 60 80 20 80" stroke="#d4a574" stroke-width="8" stroke-linecap="round" fill="none"/>
                 </g>
-                
-                <!-- Hub circle in center-bottom -->
                 <circle cx="100" cy="130" r="15" fill="#9d1f44"/>
                 <circle cx="100" cy="130" r="8" fill="none" stroke="#d4a574" stroke-width="2"/>
-                
-                <!-- Connecting lines (flow) -->
                 <line x1="70" y1="100" x2="85" y2="125" stroke="#d4a574" stroke-width="2" opacity="0.6"/>
                 <line x1="130" y1="100" x2="115" y2="125" stroke="#d4a574" stroke-width="2" opacity="0.6"/>
             </svg>
-            
             <div class="header-text">
                 <h1>PLATREMO.HUB</h1>
                 <p>Professional Automation Management Hub</p>
@@ -272,21 +260,18 @@ cat > platremo-readme.html << 'EOF'
             </div>
         </header>
         
-        <!-- INTRODUCTION -->
         <section class="section">
             <h2>What is PLATREMO?</h2>
             <p>PLATREMO automates your customer communication through intelligent AI agents. We help businesses respond to customers faster, smarter, and in any language.</p>
             <p style="margin-top: 15px; color: #d4a574; font-weight: 500;">Mission: Transform customer communication through intelligent automation.</p>
         </section>
         
-        <!-- AGENTS -->
         <section class="section">
             <h2>Our Agents</h2>
             
             <div class="agent-card">
                 <h3>MIRI - Customer Support AI</h3>
                 <p>Understands customer intent. Routes urgent issues. Provides instant responses.</p>
-                
                 <p style="font-weight: 600; margin-top: 20px;">Features:</p>
                 <ul class="features">
                     <li>Intent detection (support, sales, billing, complaints)</li>
@@ -295,7 +280,6 @@ cat > platremo-readme.html << 'EOF'
                     <li>Multi-language support</li>
                     <li>24/7 availability</li>
                 </ul>
-                
                 <p style="font-weight: 600; margin-top: 20px; color: #9d1f44;">Results:</p>
                 <div class="results">
                     <div class="result-item">
@@ -316,7 +300,6 @@ cat > platremo-readme.html << 'EOF'
             <div class="agent-card">
                 <h3>M.ARI - Email Automation</h3>
                 <p>Reads your emails. Categorizes automatically. Sends contextual replies.</p>
-                
                 <p style="font-weight: 600; margin-top: 20px;">Features:</p>
                 <ul class="features">
                     <li>Email categorization (5 types)</li>
@@ -326,7 +309,6 @@ cat > platremo-readme.html << 'EOF'
                     <li>Human review for complex cases</li>
                     <li>Full audit trail</li>
                 </ul>
-                
                 <p style="font-weight: 600; margin-top: 20px; color: #9d1f44;">Results:</p>
                 <div class="results">
                     <div class="result-item">
@@ -345,19 +327,16 @@ cat > platremo-readme.html << 'EOF'
             </div>
         </section>
         
-        <!-- HOW IT WORKS -->
         <section class="section">
             <h2>How It Works</h2>
             <div class="workflow">
                 Gmail → Fetch → Analyze → Decide → Generate → Send → Track
             </div>
-            <p>6-step workflow that processes customer communication in minutes, not hours. Everything is logged and trackable.</p>
+            <p>6-step workflow that processes customer communication in minutes, not hours.</p>
         </section>
         
-        <!-- PRICING -->
         <section class="section">
             <h2>Pricing</h2>
-            
             <div class="pricing-grid">
                 <div class="pricing-card">
                     <h3>STARTER</h3>
@@ -370,7 +349,6 @@ cat > platremo-readme.html << 'EOF'
                     </ul>
                     <button class="cta-button">Start Free Trial</button>
                 </div>
-                
                 <div class="pricing-card">
                     <h3>PRO</h3>
                     <div class="price">$199<span style="font-size: 18px;">/month</span></div>
@@ -382,7 +360,6 @@ cat > platremo-readme.html << 'EOF'
                     </ul>
                     <button class="cta-button">Start Free Trial</button>
                 </div>
-                
                 <div class="pricing-card">
                     <h3>ENTERPRISE</h3>
                     <div class="price">Custom</div>
@@ -397,23 +374,20 @@ cat > platremo-readme.html << 'EOF'
             </div>
         </section>
         
-        <!-- FOUNDER -->
         <section class="section">
             <div class="founder-bio">
                 <h3>About the Founder</h3>
-                <p><strong>Adrian Povestca</strong> is building the future of customer automation. PLATREMO.HUB brings together 20+ years of combined experience in AI, customer support, and automation.</p>
-                <p style="margin-top: 15px;">Part of the CompanyMind ecosystem, alongside MIRI Customer Support AI.</p>
+                <p><strong>Adrian Povestca</strong> is building the future of customer automation. PLATREMO.HUB brings expertise in AI, customer support, and automation.</p>
+                <p style="margin-top: 15px;">Part of the CompanyMind ecosystem.</p>
             </div>
         </section>
         
-        <!-- CTA -->
         <section class="section" style="text-align: center; margin: 80px 0;">
             <h2>Ready to Automate?</h2>
             <p style="font-size: 18px; margin: 20px 0;">Join forward-thinking companies automating customer communication.</p>
             <button class="cta-button" style="max-width: 300px; margin: 30px auto;">Book a Demo</button>
         </section>
         
-        <!-- FOOTER -->
         <footer>
             <p>PLATREMO.HUB © 2026 by Adrian Povestca</p>
             <p style="margin-top: 10px; font-size: 12px;">Professional Automation • Intelligent Responses • Global Language Support</p>
@@ -421,4 +395,3 @@ cat > platremo-readme.html << 'EOF'
     </div>
 </body>
 </html>
-EOF
